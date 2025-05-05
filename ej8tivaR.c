@@ -62,7 +62,7 @@ void UARTIntHandler(void)
             MAP_PWMOutputState(PWM0_BASE, PWM_OUT_4_BIT, false);
 
             g_bParpadear = true;
-            UARTSend((uint8_t *)"Caracter invalido. Parpadeando LEDs...\n", 40);
+            UARTSend((uint8_t *)"Mas de dos objetos...\n", 40);
         }
     }
 }
